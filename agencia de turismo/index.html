@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência de Turismo</title>
+
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+
+  <!-- HEADER PERSONALIZADO -->
+  <header>
+    <div class="logo-area">
+      <img src="./imagens/logo.png" alt="Logo Agência">
+      <span>Agência Turismo</span>
+    </div>
+    <nav class="navbar-links">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Pacotes</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner-destaque">
+    <div class="banner-overlay">
+      <h1>Explore o Mundo com a Gente</h1>
+      <p>Os melhores pacotes nacionais e internacionais</p>
+      <a href="#conteudo" class="btn btn-warning">Ver Ofertas</a>
+    </div>
+  </section>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <section class="container" id="conteudo">
+
+    <!-- Busca -->
+    <div class="row espaco">
+      <div class="col-md-12">
+        <input type="text" class="form-control input-lg" placeholder="Buscar pacotes, destinos, promoções...">
+      </div>
+    </div>
+
+    <!-- Lateral + Conteúdos -->
+    <div class="row espaco">
+      <!-- Sidebar -->
+      <div class="col-md-3">
+        <div class="box bg-sidebar">
+          <h3>Categorias</h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Nacionais</a></li>
+            <li><a href="#">Internacionais</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Feriados</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Conteúdo principal -->
+      <div class="col-md-9">
+        <div class="row">
+          <!-- Conteúdo 1 -->
+          <div class="col-sm-6">
+            <div class="pacote-card">
+              <img src="./imagens/rio.jpg" alt="Rio de Janeiro">
+              <div class="info">
+                <h4>Rio de Janeiro</h4>
+                <p>Hospedagem em Copacabana e passeio no Pão de Açúcar.</p>
+                <p class="preco">R$ 1.500,00</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteúdo 2 -->
+          <div class="col-sm-6">
+            <div class="pacote-card">
+              <img src="./imagens/paris.jpg" alt="Paris">
+              <div class="info">
+                <h4>Paris</h4>
+                <p>Louvre, Torre Eiffel e Versailles com guia.</p>
+                <p class="preco">R$ 6.800,00</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteúdo 3 -->
+          <div class="col-sm-6">
+            <div class="pacote-card">
+              <img src="./imagens/maldivas.jpg" alt="Ilhas Maldivas">
+              <div class="info">
+                <h4>Ilhas Maldivas</h4>
+                <p>Resort all inclusive e passeios de barco.</p>
+                <p class="preco">R$ 12.000,00</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteúdo 4 -->
+          <div class="col-sm-6">
+            <div class="pacote-card">
+              <img src="./imagens/feijoada.jpg" alt="Feijoada">
+              <div class="info">
+                <h4>Feijoada Gourmet</h4>
+                <p>Gastronomia brasileira para todos os gostos.</p>
+                <p class="preco">R$ 200,00</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="row espaco">
+      <div class="col-md-12">
+        <footer class="bg-footer text-white text-center">
+          <p>&copy; 2025 Agência Turismo - Todos os direitos reservados.</p>
+        </footer>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>
